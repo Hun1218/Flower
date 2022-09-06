@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'beadal';
+    src: url("./paymentImg/BMDOHYEON_ttf.ttf");
+}
+@font-face {
+    font-family: 'gothic';
+    src: url("https://fonts.googleapis.com/css?family=Gothic+A1:300");
+}
+.divInline{
+    background-color: white;
+    padding: 25px;
+    border: none;
+}
+.paymentText p{
+    font-size: 20px;
+    font-family: "gothic";
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.paymentText{
+    padding: 15px;
+
+}
+.paymentText_p{
+    letter-spacing: 1px;
+}
+.paymentTotalShot{
+    display: inline-block;
+    width: 23%;
+    margin: 20px 40px 30px 40px;
+}
+.totalText{
+    font-family: "gothic";
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: block;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+.totalText{
+    padding: 13px 0;
+}
+.paymentPlus{
+    display: none;
+}

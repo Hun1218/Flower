@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'gothic';
+  src: url("https://fonts.googleapis.com/css?family=Gothic+A1:300");
+}
+
+.reserve-store{
+    height: 400px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f2ecec; */
+    margin: auto;
+    
+  }
+  .inner{
+    width: 850px;
+    height: 400px;
+  }
+  
+  .reserve-store .medal {
+    width: 200px;
+    height: 300px;
+    perspective: 1200px;
+    
+    
+  }
+  .reserve-store .medal .front,
+  .reserve-store .medal .back {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    transition: 1s;
+    backface-visibility: hidden;
+  }
+  .reserve-store .medal .front {
+    width: 850px;
+    height: 400px;
+    background-color: gray;
+    border: none;
+    transform: rotateY(0deg);
+  }
+  .reserve-store .medal:hover .front {
+    transform: rotateY(180deg);
+  }
+  .reserve-store .medal .back {
+    transform: rotateY(-180deg);
+  }
+  .reserve-store .medal:hover .back {
+    transform: rotateY(0deg);
+    background-color: rgba(129, 129, 129, 0.295);
+    border: 3px solid rgba(0, 0, 0, 0.295);
+    width: 850px;
+    height: 400px;
+    position: absolute;
+  }
+  .messagetext{
+    margin: 176px;
+    font-size: 24px;
+
+  }
+  .messagetext p{
+    font-weight: bolder;
+    font-family: "gothic";
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }

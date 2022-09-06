@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'gothic';
+    src: url("https://fonts.googleapis.com/css?family=Gothic+A1:300");
+}
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  *{
+    font-family: 'gothic';
+  }
+  
+.MyPages{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.MyPagesWel{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.MyPagesWel {
+    font-size: 57px;
+    padding: 0;
+    font-family: "gothic";
+    margin-bottom: 0px;
+}
+.MyPagesWelF{
+    font-size: 47px;
+    padding-top: 20px;
+    font-family: "Taviraj";
+}
+.MypageDates{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    border: 3px solid #f2ecec;
+}
+
+.MyPagesDet{
+    width: 80%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+.MyPagesDetF{
+    display: flex;
+    justify-content: space-between;
+}
+.MyPagesDetAddr{
+    display: flex;
+}
+.MyPagesDetAddr p{
+    margin-right: 10px;
+    
+}
+.MyPagesDetID{
+    display: flex;
+}
+
+.MyPagesDetID p{
+    margin-right:10px;
+}
+.MyPagesDetTel{
+    display: flex;
+}
+.MyPagesDetTel p{
+    margin-right: 10px;
+}
+.MyPageLook{
+    
+}
+.MyPageLook h3{
+    text-align: center;
+}
+.payList{
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.payLists{
+    margin-right: 100px;
+    margin-bottom: 5px;
+}
+
+.MypageDelivers{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.MypageD{
+    width: 190px;
+    height: 190px;
+    border: 3px solid black;
+    text-align: center;
+}
+.MypageDBlue{
+    border: 2px solid tomato;
+    color: tomato;
+}
+.MypageDDB{
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.MypageDD{
+    padding-top: 25px;
+}
+.MypageArrow{
+    display: flex;
+    align-items: center;
+}
+
+.MypageInform{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    height: 300px;
+}
+
+.MypageInformCall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.MypageInformCall h5{
+    font-size: 37px;
+    font-weight: 700;
+}
+.MypageInformCallSS{
+    margin-top: 20px;
+}
+.MypageInformCallSSF{
+    font-size: 27px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.MypageInformSNS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MypageInformSNS h5{
+    font-size: 37px;
+    font-weight: 700;
+}
+.MypageInformSNSCircle{
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+    cursor: pointer;
+    padding-top: 3px;
+    /* padding-bottom: 20px; */
+}
+.MypageInformTalk{
+    text-align: center;
+}
+
+.MypageInformTalk h5{
+    font-size: 37px;
+    font-weight: 700;
+}
+.MypageInformTalkDD{
+    display: flex;
+    flex-direction: column;
+}
+.MypageInformTalkDD p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Mypageitemsss{
+    text-align: center;
+}
+
+.MypageInformTalkDDDK{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    font-size: 15px;
+    font-weight: 700;
+}
+.MypageInformTalkDDDK a{
+    text-decoration: none;
+    color: black;
+}
+.MypageInformTalkDDDKBTN{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+}
+.MypageBackground{
+    position: relative;
+    margin-top: 50px;
+}
+.MypageBackgroundsss{
+    width: 100%;
+    height: auto;
+}
+.MypageBlogSNS{
+    position: absolute;
+    z-index: 9;
+    bottom: 50px;
+    right: 785px;
+    cursor: pointer;
+}
+.MypageFaceSNS{
+    position: absolute;
+    z-index: 9;
+    bottom: 48px;
+    right: 700px;
+    cursor: pointer;
+}
+
+.MypageKAKA{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    bottom: 30px;
+    right: 170px;
+}

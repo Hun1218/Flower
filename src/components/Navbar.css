@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@400;700&display=swap');
+.MainNavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfcaca;
+    border-bottom: 1px solid #c8c8c8;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+   
+}
+.MainLogo{
+    height: 75px;
+    color: white;
+    padding-left: 60px;
+    cursor: pointer;
+}
+.MainLogo p{
+    line-height: 80px;
+    height: 75px;
+    font-size: 42px;
+    font-family: 'Taviraj', serif;
+    color: black;
+    margin: 0;
+    letter-spacing: 6px;
+}
+
+.MainMenu{
+    font-family:'Nanum Gothic', sans-serif;
+    padding-right: 20px;
+    margin: 37px;
+    display: flex;
+}
+.MainMenuSBtn{
+    margin-left: 15px;
+    margin-right: 10px;
+   
+}
+.navToggle{
+    margin-top: 30px;
+}
+.MainMenu button{
+    
+    border: none;
+    background-color: #cfcaca;
+    font-size: 27px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-right: 17px;
+    font-family: "Taviraj";
+    
+    
+}
+
+/* .MainMenu button:hover{
+    color: ghostwhite;
+    font-size: 35px;
+} */
+.MainMenu button:focus{
+    color: #95A18B;
+}
+.MainMenu span{
+    font-size: 20px;
+    font-weight: 700;
+    color: burlywood;
+}
+
+.navPerson{
+    width: 30px;
+    padding-bottom: 3px;
+}
+
+.MainMenuFBtn{
+    padding-right: 7px;
+}

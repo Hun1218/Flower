@@ -1,0 +1,323 @@
+/* BoardList */
+.boardList {
+  width: 100%;
+  padding-top: 10px;
+}
+.boardTitle {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  /* border-bottom: 3px solid black; */
+  /* font-weight: bolder; */
+}
+.boardTitle h2 {
+  font-weight: bolder;
+}
+/* .boardList{
+    border-bottom: 3px solid grey;
+} */
+.boardList table {
+  width: 70%;
+}
+.boardList thead {
+  border-bottom: 1px solid grey;
+  /* border-top: 2px solid black; */
+  height: 60px;
+  /* padding: 15px 10px 15px 10px; */
+}
+/* .boardList tbody{
+    border-bottom: 3px solid grey;
+} */
+/* .boardArticle{
+    border-bottom: 3px solid grey;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+} */
+.ArticleTr {
+  border-bottom: 1px solid grey;
+  padding: 20px;
+  height: 50px;
+}
+.writeBtn {
+  background-color: #CFCACA;
+  color: black;
+  width: 150px;
+  height: 37px;
+  /* display: flex; */
+  /* justify-content: ; */
+  margin-right: 220PX;
+  border: none;
+  border-radius: 3px;
+}
+.writeBtnt {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* BoardDetail */
+.BBBDDD{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2ecec;
+  
+}
+.BBDD {
+  background-color: #fcfcfc;
+  height: 100vh;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.BD {
+  margin-top: 75px;
+  width: 90%;
+}
+.BDTitle {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  border-bottom: 3px solid grey;
+}
+.BDTitle h1 {
+  text-align: center;
+}
+.BDBTN {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.BDcontainer {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 40px; */
+  margin-top: 20px;
+  
+}
+.write {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 13px;
+}
+.user {
+  font-size: 20px;
+}
+.time {
+  font-size: 20px;
+}
+/* .container {
+  display: flex;
+  justify-content: space-around;
+} */
+.upload_image {
+  margin-right: 100px;
+}
+.detailContent {
+  background-color: #fcfcfc;
+  width: 100%;
+}
+
+.btnzzz {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btnList {
+  background-color:  #CFCACA;
+  border: none;
+  color: black;
+  width: 150px;
+  height: 40px;
+  font-size: large;
+  margin-right: 7px;
+}
+.reMake {
+  background-color:  #CFCACA;
+  border: none;
+  color: black;
+  width: 150px;
+  height: 40px;
+  font-size: large;
+  margin-right: 7px;
+}
+.detailDelete {
+  /* display: flex;
+  justify-content: flex-end; */
+  background-color:  #CFCACA;
+  border: none;
+  color: black;
+  width: 150px;
+  height: 40px;
+  font-size: large;
+}
+.detailOut {
+  border: none;
+  background-color: #fcfcfc;
+  font-size: 30px;
+  font-weight: 700;
+  /* background-color: none; */
+}
+
+/* boardWriter */
+.wwwww {
+  display: flex;
+  justify-content: center;
+}
+.boardWriters {
+  /* align-items: center; */
+  background-color: white;
+  text-align: center;
+  height: 550px;
+  border: 1px solid black;
+  width: 80%;
+  
+}
+.boardWriters forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* margin-left: 40px; */
+}
+.writerTitless {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.writerTitle {
+  text-align: center;
+  /* padding-top: 10%; */
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  width: 80%;
+  /* width: 100px; */
+}
+.writerTitle input {
+  padding: 0;
+  background-color: #fcfcfc;
+}
+.writerCttImg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 5%;
+}
+.writerImg {
+  display: flex;
+}
+.filebox label {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #fff;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 0.25em;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.writerImg{
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+.filebox input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.writerContetsss{
+  display: flex;
+  flex-direction: column;
+}
+.uploadsBtn {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 40px;
+}
+
+
+
+/* .bbbbb {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+} */
+.closeModal {
+  /* width: 1240px; */
+  /* padding-right: 5px; */
+  padding-top: 10px;
+  display: flex;
+  justify-content: right;
+  padding-right: 20px;
+}
+.closeModalBtn {
+  display: flex;
+  /* text-align-last: right; */
+  /* align-items: flex-end; */
+  justify-content: right;
+  /* position: absolute;
+  top: 17%;
+  right: 26%; */
+  font-size: 40px;
+  font-weight: 500;
+  color: grey;
+  border: none;
+  background-color: white;
+}
+.input_title {
+  border: none;
+  text-align: center;
+  height: 50px;
+  width: 80%;
+}
+.input_title:hover {
+  border: 1px rgb(177, 177, 177) solid;
+}
+.input_contents {
+  border: none;
+  text-align: center;
+  height: 300px;
+  width: 400px;
+  background-color: #fcfcfc;
+}
+.input_contents:hover {
+  border: 1px rgb(177, 177, 177) solid;
+}
+.updateBtn {
+  background-color: black;
+  color: #fcfcfc;
+}
+.updateBtn:hover {
+  border-radius: 10px;
+}
+/* .updateImg {
+  background-color: black;
+} */
+.wwwDD {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.boardLink {
+  text-decoration: none;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}

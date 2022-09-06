@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'gothic';
+    src: url("https://fonts.googleapis.com/css?family=Gothic+A1:300");
+  }
+.LoginForms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid #f2ecec;
+    padding-right: 57px;
+}
+.LoginForms h1{
+    margin-bottom: 70px;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family: 'gothic';
+}
+
+
+
+.ID{
+    border: none;
+    border-bottom: 3px solid grey;
+    height: 30px;
+    width: 250px;
+    background-color: whitesmoke(197, 191, 191);
+    margin-bottom: 15px;
+    padding-bottom: 2px;
+}
+.ID:focus{
+    outline: none;
+
+}
+.PW{
+    border: none;
+    border-bottom: 3px solid grey;
+    height: 30px;
+    width: 250px;
+    background-color: whitesmoke(197, 191, 191);
+    padding-bottom: 2px;
+}
+.PW:focus{
+    outline: none;
+}
+
+.login{
+    width: 200px;
+    height: 47px;
+    color: gray;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,  sans-serif;
+    background-color: #f2ecec;
+    border-radius: 15px;
+    border: none;
+    margin: 15px;
+    font-family: 'gothic';
+}
+
+
+.NaverL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 183px;
+    height: 45px;
+    background-color: #03C75A;
+    border-radius: 5px 5px;
+    /* color: white; */
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.N{
+    color: white;
+    font-weight: 1000;
+    font-size: large;
+    font-family: 'gothic';
+}
+.nlog{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    padding-right: 25px;
+    font-family: 'gothic';
+}
+.kakaoL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 183px;
+    height: 45px;
+    background-color: #FEE500;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.icon{
+    color: #000000;
+    font-weight: 300;
+}
+.klog{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 800;
+    padding-right: 25px;
+    font-family: 'gothic';
+}
+.LoginA a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-family: 'gothic';
+}
+.facebookL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 183px;
+    height: 45px;
+    background-color: #3B5998;
+    border-radius: 5px 5px;
+    cursor: pointer;
+}
+.f{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    font-size: large;
+}
+.flog{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    padding-right: 15px;
+}
+.LoginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+.loginimage{
+    width: auto;
+    height: 500px;
+    margin-left: 70px;
+    border-radius: 17px;
+}

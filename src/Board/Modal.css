@@ -1,0 +1,25 @@
+.modal2 {
+  position: fixed;
+  top: 120px;
+  left: 200px;
+  bottom: 0;
+  right: 0;
+  
+  z-index: 0;
+  width: 1100px;
+  height: 500;
+}
+
+.WriterModel {
+  position: fixed;
+  top: 100px;
+}
+
+.detailModel {
+  
+  margin-top: 90px;
+}
+
+.updateModel {
+  margin-top: 90px;
+}
