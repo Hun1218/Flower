@@ -11,4 +11,7 @@
 <img src="https://user-images.githubusercontent.com/65394765/205198941-8f5609a1-becd-44c4-8e71-333618051d94.png"/>
 <h6>메뉴 구성 및 서비스 흐름 </h6>
 <img src="https://user-images.githubusercontent.com/65394765/205199670-1a102258-b5d7-4428-88a0-e2571db95503.png"/>
-<h6>파트 - 게시판 구현, 결제 api, DB구축</h6>
+<h5>파트 - 게시판 구현, 결제 api, DB구축</h5>
+<h6>게시판</h6>
+<img src="https://user-images.githubusercontent.com/65394765/205202536-70f23f1d-6af9-4ca3-bb92-822758c4a112.png"/>
+
